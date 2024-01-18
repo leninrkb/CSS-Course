@@ -1,0 +1,41 @@
+/* class */
+.code{
+    font-family: monospace;
+    font-size: 24px;
+    color: rgb(50, 10, 10);
+}
+
+/* element */
+h1{
+    font-family: sans-serif;
+    color: rgb(15, 15, 25);
+}
+
+h2, h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: rgb(100, 100, 200);
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: rgb(100, 100, 100);
+}
+
+.border{
+    border: 10px;
+    border-color: black;
+}
+
+/* universal */
+*{
+    margin: 5px;
+    padding: 0;
+}
+
+/* descending */
+p span{
+    color: rgb(150, 100, 210);
+    text-decoration: underline;
+}
