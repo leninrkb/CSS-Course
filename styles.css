@@ -39,3 +39,19 @@ p span{
     color: rgb(150, 100, 210);
     text-decoration: underline;
 }
+
+a{
+     text-transform: uppercase;
+     text-decoration: underline;
+}
+
+p > a {
+    color: rgb(150,100,150);
+    text-decoration: none;
+}
+
+// selector adyacente 
+h1 + h2 {
+    color: rgb(150, 50, 50);
+    text-transform: uppercase;
+}
