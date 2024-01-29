@@ -28,11 +28,20 @@ p{
     border-color: black;
 }
 
+
+html {
+    background-color: rgb(177, 209, 73);
+}
+
 /* universal */
 *{
-    margin: 5px;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
 }
+
+
 
 /* descending */
 p span{
@@ -46,12 +55,27 @@ a{
 }
 
 p > a {
-    color: rgb(150,100,150);
+    color: rgb(185, 64, 185);
     text-decoration: none;
 }
 
-// selector adyacente 
+ /* selector adyacente  */
 h1 + h2 {
-    color: rgb(150, 50, 50);
+    color: rgb(50, 150, 50);
     text-transform: uppercase;
+}
+
+.interlineado {
+    line-height: 20pt;
+    word-spacing: 1cm;
+}
+
+.bonito{
+    background-color: rgb(169, 243, 255);
+    border-radius: 5pt;
+}
+
+.cajita{
+    width: fit-content;
+    margin-left: 2cm;
 }
