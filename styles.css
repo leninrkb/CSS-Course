@@ -84,8 +84,7 @@ h1 + h2 {
 .border{
     border-style: solid;
     border-width: 5px;
-    border-color: deeppink;
-    
+    border-color: deeppink;  
 }
 
 .fondo-azul{
@@ -101,4 +100,35 @@ h1 + h2 {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-attachment: scroll;
+}
+
+.posicion{
+    position: relative;
+    top: 2cm;
+}
+
+.relativo{
+    /* no afecta al resto */
+    position: relative;
+    left: 2cm;
+}
+
+.absoluto{
+    /* si afecta al resto , coloca encina de los demas */
+    position: absolute;
+    left: 2cm;
+
+}
+
+
+.flotante{
+    float: right;
+}
+
+.inline{
+    display: inline;
+}
+
+.sobresale{
+    overflow: hidden;
 }
