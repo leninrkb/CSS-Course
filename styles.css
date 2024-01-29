@@ -23,22 +23,16 @@ p{
     color: rgb(100, 100, 100);
 }
 
-.border{
-    border: 10px;
-    border-color: black;
-}
-
-
 html {
-    background-color: rgb(177, 209, 73);
+    /* background-color: rgb(177, 209, 73); */
 }
 
 /* universal */
 *{
-    margin: 10px;
-    padding: 10px;
-    background-color: rgb(204, 204, 204);
-    border-radius: 10px;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    /* background-color: rgb(204, 204, 204); */
+    /* border-radius: 10px; */
 }
 
 
@@ -72,10 +66,39 @@ h1 + h2 {
 
 .bonito{
     background-color: rgb(169, 243, 255);
-    border-radius: 5pt;
 }
 
 .cajita{
     width: fit-content;
-    margin-left: 2cm;
+}
+
+.redondo{
+    border-radius: 10pt;
+}
+
+.margen{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.border{
+    border-style: solid;
+    border-width: 5px;
+    border-color: deeppink;
+    
+}
+
+.fondo-azul{
+    background-color: blue;
+}
+
+.padd{
+    padding: 2em;
+}
+
+.fondo-img{
+    background-image: url('https://picsum.photos/50');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: scroll;
 }
