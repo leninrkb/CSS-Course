@@ -1,0 +1,57 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url('./2.webp');
+    background-size: 2cm;
+}
+
+h4{
+    color: rgb(53, 202, 152);
+}
+
+.fondo{
+    background-color: rgb(82, 82, 82);
+}
+
+.texto-blanco{
+    color: gainsboro;
+}
+
+.enlace{
+    color: chartreuse;
+    font-size: small;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:link{
+    color: blueviolet;
+}
+
+a:visited{
+    color: aqua;
+}
+
+a:active{
+    color: chocolate;
+}
+
+.mayus{
+    text-transform: capitalize;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.borde{
+    border: 2px solid #bbffa0;
+    margin: 0.5em;
+    padding: 0.2em;
+    border-radius: 1em;
+}
+
